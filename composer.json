@@ -1,0 +1,25 @@
+{
+    "name": "salzer/scrapper",
+    "description": "Simple Scrapper package.",
+    "keywords": ["scrapper", "php scrapper"],
+    "type": "library",
+    "version": "1.0",
+    "require": {
+        "php": ">=5.2.4",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "~6.0",
+        "shark/simple_html_dom": "dev-master"
+    },
+    "autoload": {
+        "files": ["src/webscrapper.php"]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.com/salzer/"
+        },
+        {
+            "packagist.org": false
+        }
+    ]
+}
